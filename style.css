@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    position: relative;
+    padding: 0 50px;
+    background-image: url(./images/stethoscope.png), linear-gradient(rgb(0, 0, 0,0.05), rgb(0, 0, 0,0.05));
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul{
+    display: flex;
+    gap: 50px;
+}
+header nav ul li{
+    list-style: none;
+
+}
+header nav ul li a{
+    font-weight: 600;
+    transition: 0.2s;
+}
+header nav ul li a:hover{
+    color: #20BC7E;
+}
+header nav img{
+    height: 50px;
+}
+
+/* ============================
+============section============
+============================ */
+
+section{
+
+    padding: 60px 10px;
+}
+section img{
+    position: absolute;
+}
+.text{
+ width: 50%;
+}
+section  h1{
+    font-size: 60px;
+}
+section p{
+    margin-top: 10px;
+    color: #837C80;
+    font-size: 17px;
+}
+section button{
+    background-color: #20BC7E;
+    border: transparent;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    margin-top: 20px;
+}
+#topAngle{
+    top: 100px;
+}
+#bottomAngle{
+    left: 48%;
+    bottom: 110px;
+}
+#mouse{
+    height: 30px;
+    left: 52%;
+    bottom: 50px;
+}
+#greenBox{
+    width: 430px;
+    bottom: 0;
+    right: 10px;
+}
+#yellowBox{
+    width: 370px;
+    bottom: 20px;
+    right: 0;
+}
+#doctor{
+    bottom: 0;
+    right: 25px;
+    width: 400px;
+}
